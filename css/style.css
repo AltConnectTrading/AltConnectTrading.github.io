@@ -1,0 +1,119 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+:root{
+  --primary: #212121;
+  --light-primary: #484848;
+  --dark-primary: #000000;
+  --Secondary:#00796b;
+  --light-secondary: #48a999;
+  --dark-secondary:#004c40;
+  --text: #ffffff;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: var(--light-secondary);
+}
+
+.parallax-container {
+  min-height: 450px;
+  line-height: 0;
+  height: auto;
+  color: var(--text);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.header{
+ min-height: 600px; 
+}
+.no-pad-bot{
+  position: relative;
+  z-index: 2 !important;
+  display: block;
+  text-decoration-style: solid;
+ }
+
+a{
+  outline: 0px !important;
+}
+
+.active{
+  outline: 0px !important;
+}
+
+ #particles-js {
+	background-image: url("");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 975px;
+	position: absolute;
+	width: 100%;
+	top: 0;
+  left: 0;
+  overflow: hidden
+}
+
+.advant-bar{
+  width: 100%;
+  max-width: 100%;
+  background-color: var(--primary);
+  overflow: hidden;
+
+}
+
+.advant-bar . {
+  color: var(--text);
+}
+
+.background-pattern-1{
+  background-color: #48a999;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23ffffff' fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.tabs-content{
+  height: 400px !important;
+}
